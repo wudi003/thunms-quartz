@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="thunms-quartz">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/resource"/>
+        <dependent-module archiveName="thunms.framework.core-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/thunms.framework.core/thunms.framework.core">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="thunms.schedule.quartz-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/thunms.schedule.quartz/thunms.schedule.quartz">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="thunms-quartz"/>
+        <property name="java-output-path" value="/thunms-quartz/webapp/WEB-INF/classes"/>
+    </wb-module>
+</project-modules>
