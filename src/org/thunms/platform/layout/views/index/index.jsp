@@ -3,7 +3,7 @@
 <%@ taglib prefix="t" uri="/thunms"%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
-<t:head useMy97DatePicker="true"  />
+<t:head   />
 <body id="indexLayout" class="easyui-layout"   >
 	<div data-options="region:'north'"   style="height:60px;overflow: hidden;" >
 		<div>
