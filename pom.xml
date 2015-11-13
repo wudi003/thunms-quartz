@@ -41,6 +41,12 @@
 		</dependency>
 		<dependency>
 			<groupId>thunms-quick</groupId>
+			<artifactId>thunms.framework.io</artifactId>
+			<version>${thunms-quick.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>thunms-quick</groupId>
 			<artifactId>thunms.schedule.quartz</artifactId>
 			<version>${thunms-quick.version}</version>
 		</dependency>
